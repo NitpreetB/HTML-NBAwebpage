@@ -4,6 +4,7 @@
         <title>Top players</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="inherit.css">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,80 +17,95 @@
         <a class="nav-link" href="mywebsite.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="topplayers.html">Top Players</a>
+        <a class="nav-link" href="topplayers.html">Top NBA Players</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="teams.html">Teams</a>
+        <a class="nav-link" href="teams.html">NBA Teams</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Other.html">Other</a>
+        <a class="nav-link" href="Other.html">The WNBA</a>
       </li>
     </ul>
   </div>
   </nav>
 
         <style>
-            h1{
-                color:white;
-                text-align:center;
-                background-color: blue;
-                font-family:sans-serif;
-                font-size: 60px;
-                font-weight: 500;
-                border: 15px solid red;
+
+        .row > div{
+
+          background-color: grey;
+          border: 2px solid black;
+          padding-left: 20px;
+          font-size: 19.25px;
+          font-weight: bold;
+
+
+        }
+        .row > div2{
+
+          background-color: grey;
+          border: 2px solid black;
+          padding-left: 20px;
+          font-size: 19.25px;
+          font-weight: bold;
+
+
+        }
+
+
+
+        @media (min-width: 730px) {
+            div3{
+                display: contents;
             }
+        }
+
+        @media (max-width: 729px) {
+          div3{
+              display: none;
+            }
+        }
+
         </style>
 
     </head>
 
     <body>
 
-           <h1> Top Players </h1>
 
-           <table>
-               <tr>
-                   <th>First name</th>
-                   <th>Last name</th>
-               </tr>
-               <tr>
-                   <td>Lebron</td>
-                   <td>James</td>
-               </tr>
-               <tr>
-                   <td>Kevin</td>
-                   <td>Durant</td>
-               </tr>
+           <h1 class="NBA"> Top NBA Players </h1>
+           <div class="row">
+             <div class="row">
+    <div class="col-sm">
+      LeBron James
+    </div>
+    <div class="col-sm">
+      Kevin Durant
+    </div>
+    <div class="col-sm">
+      Stephen Curry
+    </div>
+    <div class="col-sm">
+      Anthony Davis
+    </div>
+    <div class="col-sm">
+      Kawhi Leonard
+    </div>
+    <div class="col-sm">
+      Giannis Antetokounmpo
+    </div>
+    <div class="col-sm">
+      Kyrie Irving
+    </div>
+    <div class="col-sm">
+      James Harden
+    </div>
+    </div>
+</div>
 
-               <tr>
-                   <td>Stephen</td>
-                   <td>Curry</td>
-               </tr>
+<div3>
 
-               <tr>
-                   <td>Anthony</td>
-                   <td>Davis</td>
-               </tr>
-
-               <tr>
-                   <td>Kawhi</td>
-                   <td>Leonard</td>
-               </tr>
-
-               <tr>
-                   <td>Giannis</td>
-                   <td>Antentonkoumpo</td>
-               </tr>
-               <tr>
-                    <td>Kyrie</td>
-                    <td>Irving</td>
-            </tr>
-               <tr>
-                       <td>James</td>
-                       <td>Harden</td>
-               </tr>
-            </table>
-
-           <img src="lebron.jpg" height="12%" width="12%">
+           <img class="screen-only" src="lebron.jpg" height="12%" width="12%">
            <img src="kd.jpg" height="12%" width="12%">
         <img src="sc.jpg" height="12%" width="12%">
          <img src="ad.jpg" height="12%" width="12%">
@@ -98,8 +114,45 @@
         <img src="ki.jpg" height="12%" width="12%">
          <img src="jh.jpg" height="12%" width="12%">
 
-
-
+</div3>
+         <div class="row">
+           <div class="row">
+         <div class="col-sm">
+         Russell  Westbrook
+         </div>
+         <div class="col-sm">
+         Lucka  Doncic
+         </div>
+         <div class="col-sm">
+         Joel  Embiid
+         </div>
+         <div class="col-sm">
+         Lonzo Anderson Ball.
+         </div>
+         <div class="col-sm">
+         Derrick Rose.
+         </div>
+         <div class="col-sm">
+         Jimmy Butler.
+         </div>
+         <div class="col-sm">
+         Ben Simmons.
+         </div>
+         <div class="col-sm">
+         Jayson Tatum.
+         </div>
+         </div>
+         </div>
+<div3>
+         <img src="rw.jpg" height="12%" width="12%">
+         <img src="Ld.jpg" height="12%" width="12%">
+      <img src="je.jpg" height="12%" width="12%">
+       <img src="lb.jpg" height="12%" width="12%">
+      <img src="dr.jpg" height="12%" width="12%">
+      <img src="jb.jpg" height="12%" width="12%">
+      <img src="bs.jpg" height="12%" width="12%">
+       <img src="jt.jpg" height="12%" width="12%">
+</div3>
     </body>
 
 </html>

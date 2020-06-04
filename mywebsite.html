@@ -3,7 +3,8 @@
     <head>
         <title>NBA</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+<link rel="stylesheet" href="nesting1.css">
+<link rel="stylesheet" href="inherit.css">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -15,13 +16,13 @@
         <a class="nav-link" href="mywebsite.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="topplayers.html">Top Players</a>
+        <a class="nav-link" href="topplayers.html">Top NBA Players</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="teams.html">Teams</a>
+        <a class="nav-link" href="teams.html">NBA Teams</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Other.html">Other</a>
+        <a class="nav-link" href="Other.html">The WNBA</a>
       </li>
     </ul>
   </div>
@@ -29,15 +30,12 @@
 
 
         <style>
-            h1{
-                color:white;
-                text-align:center;
-                background-color: darkBlue;
-                font-family:sans-serif;
-                font-size: 60px;
-                font-weight: 500;
-                border: 15px solid red;
-            }
+        p1::selection{
+
+          background-color:red;
+
+        }
+
         h2 {
           font-family: monospace;
             color:Black;
@@ -53,8 +51,8 @@
         }
 
 #section1{
-  font-family: fantasy;
-  font-size: 25;
+  font-family: inherit;
+  font-size: 20px;
 }
 
         </style>
@@ -63,14 +61,36 @@
 
     <body>
 
-        <h1>The NBA</h1>
+        <h1 class="NBA">The NBA</h1>
         <h2>National Basketball Association</h2>
         <img src="nba.png" height="15%" width="15%">
 
 
-        <h1 > About the NBA</h1>
-        <p1 id="section1">the NBA or National Baasketball Association, is an American Basketball league with some of the greatest Athleats in the world. Composed of 30 teams, It is one of the four major professional sports leagues in the United States and Canada, and is widely considered to be the premier men's professional basketball league in the world. the nba is one of the most influencial and popular basketball leagues in the world. with over 30 teams and hundreds of phenomenal athletes, hundreds of children across the world aspire to play in the NBA</p1>
+        <h1 class="NBA" > About the NBA</h1>
+        <p1 id="section1">The NBA is a global sports and media business built around three professional sports leagues: the National Basketball Association, the Womens National Basketball Association, and the NBA G League.  The league has established a major international presence with games and programming in 215 countries and territories in 49 languages, and NBA merchandise for sale in more than 125,000 stores in 100 countries on 6 continents.  NBA rosters at the start of the 2016-17 season featured a record 113 international players from 41 countries and territories.  NBA Digital assets include NBA TV, NBA.com and the NBA App, which achieved record viewership and traffic during the 2015-16 season.  The NBA has created one of the largest social media communities in the world, with more than one billion likes and followers globally across all league, team, and player platforms.  Through NBA Cares, the league addresses important social issues by working with internationally recognized youth-serving organizations that support education, youth and family development, and health-related causes.
+        </p1>
 
+        <h1 class="NBA" >The ABA</h1>
+
+<div1>
+      <p2> The American Basketball Association (ABA) was an American semi-professional men's basketball minor league that was founded in 1999, an is essentually the precursor to the NBA
+        The ABA has teams based in the United States and previously had international teams based in Canada and Mexico. In the past, there were traveling teams from countries such as Australia and Japan who played in the ABA. Additionally, there were players from other countries that were on a U.S. team to showcase other talented athletes in the country.
+        The current ABA bears no relation to the original American Basketball Association (1967 to 1976) that was considered a major league, and merged with the National Basketball Association (NBA) in 1976.
+      </p2>
+
+      <h3 style="color:purple; text-align: center; font-size: 40px;">The Teams in the ABA were </h3>
+
+      <ul>
+                    <li> Kentucky Colonels </li>
+                    <li> Miami Floridians</li>
+                    <li> Pittsburgh Condors</li>
+                    <li>Utah Stars</li>
+                    <li> Carolina Cougars</li>
+                    <li> Anaheim Amigos</li>
+
+
+      </ul>
+</div1>
     </body>
 
 </html>
