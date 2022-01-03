@@ -1,4 +1,5 @@
-# Project 0
+NBA WEBSITE PROJECT
+
 Nitpreet Bamra
 
 my first webpage is about the NBA and basketball in general. basketball is one of my hobbies and that is why i chose to make my first webpage about the NBA
